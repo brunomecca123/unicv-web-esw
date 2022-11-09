@@ -119,4 +119,4 @@ class UsuariosController extends Controller
         DB::table('usuarios')->where('id', $id)->delete();
         return redirect('usuarios')->with('mensagem', 'Excluído com sucesso!');
     }
-}
+}..
