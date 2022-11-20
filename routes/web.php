@@ -19,4 +19,4 @@ Route::get('users-db', [HomeController::class, 'usersDatabase']);
 
 Route::get('/', function () {
     return view('welcome');
-});..
+});
